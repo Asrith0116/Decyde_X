@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Build Artifacts
+dist/
+build/
+.next/
+out/
+*.log
+
+# OS-specific Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific
+simulations.json
+package-lock.json
